@@ -22,4 +22,3 @@ The notebooks are reusable for other OGLE microlensing events that have photomet
 3. Update the settings for your event. In Part A, set the number of near-peak points, the adopted source fraction, and the OGLE reference values and uncertainties. For the grid searches, set the initial guesses, fixed values, and search bounds. For Monte Carlo, update the parameters used to generate the simulated light curves.
 4. Select **Runtime → Run all**.
 
-For the Part A analysis in our report, we used 8 near-peak observations for OGLE-2024-BLG-0010 and 9 for OGLE-2024-BLG-0056. In the two-parameter notebook, the default fixed peak time of 2460383.536 HJD matches Table V. Set `FIXED = {"t0": 2460383.444, "b": 1.0}` to reproduce the configuration in Tables VI–VII.
